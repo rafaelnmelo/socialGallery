@@ -2,12 +2,14 @@ import React from 'react'
 import { View, Image, StyleSheet, Dimensions } from 'react-native'
 
 import Author from './Author'
+import Comments from './Comments'
 
 export default props => {
     return (
         <View style={styles.container}>
             <Image source={props.image} style={styles.image}/>
             <Author email="rafan@fmail.com" nickname='rafan' />
+            <Comments comments={props.comments} />
         </View>
     )
 }
