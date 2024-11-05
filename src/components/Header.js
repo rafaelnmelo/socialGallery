@@ -8,7 +8,7 @@ import icon from '../../assets/imgs/icon.png'
 
 export default props => {
     return (
-        <View style={StyleSheet.container}>
+        <View style={styles.container}>
             <View style={styles.rowContainer}>
                 <Image source={icon} style={styles.image} />
                 <Text style={styles.title}>Social Gallery</Text>
@@ -40,6 +40,6 @@ const styles = StyleSheet.create({
         color: "#000",
         fontFamily: 'shelter',
         height: 30,
-        fontSize: 28
+        fontSize: 24
     }
 })
