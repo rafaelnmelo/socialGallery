@@ -6,20 +6,16 @@ import {
 
 import icon from '../../assets/imgs/icon.png'
 
-class Header extends Component {
-    render() {
-        return (
-            <View style={StyleSheet.container}>
-                <View style={styles.rowContainer}>
-                    <Image source={icon} style={styles.image} />
-                    <Text style={styles.title}>Social Gallery</Text>
-                </View>
+export default props => {
+    return (
+        <View style={StyleSheet.container}>
+            <View style={styles.rowContainer}>
+                <Image source={icon} style={styles.image} />
+                <Text style={styles.title}>Social Gallery</Text>
             </View>
-        )
-    }
+        </View>
+    )
 }
-
-export default Header
 
 const styles = StyleSheet.create({
     container: {
