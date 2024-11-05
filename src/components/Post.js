@@ -1,10 +1,13 @@
 import React from 'react'
 import { View, Image, StyleSheet, Dimensions } from 'react-native'
 
+import Author from './Author'
+
 export default props => {
     return (
         <View style={styles.container}>
             <Image source={props.image} style={styles.image}/>
+            <Author email="rafan@fmail.com" nickname='rafan' />
         </View>
     )
 }
