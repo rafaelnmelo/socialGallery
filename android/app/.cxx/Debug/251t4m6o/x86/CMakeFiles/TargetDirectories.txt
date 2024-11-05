@@ -1,0 +1,9 @@
+/Users/rafaelnunes/Projects/socialGallery/android/app/.cxx/Debug/251t4m6o/x86/CMakeFiles/appmodules.dir
+/Users/rafaelnunes/Projects/socialGallery/android/app/.cxx/Debug/251t4m6o/x86/CMakeFiles/edit_cache.dir
+/Users/rafaelnunes/Projects/socialGallery/android/app/.cxx/Debug/251t4m6o/x86/CMakeFiles/rebuild_cache.dir
+/Users/rafaelnunes/Projects/socialGallery/android/app/.cxx/Debug/251t4m6o/x86/rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir
+/Users/rafaelnunes/Projects/socialGallery/android/app/.cxx/Debug/251t4m6o/x86/rngesturehandler_codegen_autolinked_build/CMakeFiles/edit_cache.dir
+/Users/rafaelnunes/Projects/socialGallery/android/app/.cxx/Debug/251t4m6o/x86/rngesturehandler_codegen_autolinked_build/CMakeFiles/rebuild_cache.dir
+/Users/rafaelnunes/Projects/socialGallery/android/app/.cxx/Debug/251t4m6o/x86/rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir
+/Users/rafaelnunes/Projects/socialGallery/android/app/.cxx/Debug/251t4m6o/x86/rnscreens_autolinked_build/CMakeFiles/edit_cache.dir
+/Users/rafaelnunes/Projects/socialGallery/android/app/.cxx/Debug/251t4m6o/x86/rnscreens_autolinked_build/CMakeFiles/rebuild_cache.dir

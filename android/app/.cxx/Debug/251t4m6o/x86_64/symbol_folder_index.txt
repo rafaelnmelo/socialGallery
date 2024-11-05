@@ -1,0 +1,1 @@
+/Users/rafaelnunes/Projects/socialGallery/android/app/build/intermediates/cxx/Debug/251t4m6o/obj/x86_64
