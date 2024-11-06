@@ -12,12 +12,11 @@ export default props => {
     comment: 'Muito ruim! Faço melhor...'
   }]
 
-
-    return (
-      <View style={{ flex: 1 }}>
-        <Header />
-        <Post image={require('./assets/imgs/fence.jpg')} 
-        comments={comments}/>
-      </View>
-    )
+  return (
+    <View style={{ flex: 1 }}>
+      <Header />
+      <Post image={require('./assets/imgs/fence.jpg')}
+        comments={comments} />
+    </View>
+  )
 }
