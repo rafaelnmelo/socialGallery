@@ -7,14 +7,14 @@ import Ionicons from 'react-native-vector-icons/Ionicons'
 import Feed from './screens/Feed'
 import AddPhoto from './screens/AddPhoto'
 import Profile from './screens/Profile'
-// import Login from './screens/Login'
+import Login from './screens/Login'
 // import Register from './screens/Register'
 
 // import useUser from './data/hooks/useUser'
 
 const Tab = createBottomTabNavigator()
-// const SwitchStack = createStackNavigator()
-// const AuthStack = createStackNavigator()
+const SwitchStack = createStackNavigator()
+const AuthStack = createStackNavigator()
 
 const routeIcon = {
     Feed: 'home',
@@ -27,7 +27,7 @@ export default props => {
 
     const Auth = () => (
         <AuthStack.Navigator initialRouteName="Login">
-            <AuthStack.Screen name="Login" component={Feed} />
+            <AuthStack.Screen name="Login" component={Login} />
             <AuthStack.Screen name="Register" component={Feed} />
         </AuthStack.Navigator>
     )
@@ -35,7 +35,7 @@ export default props => {
     const AuthOrProfile = () => (
         <SwitchStack.Navigator screenOptions={{headerShown: false}}>
             {email ? 
-                <SwitchStack.Screen name="Home" component={Feed} />
+                <SwitchStack.Screen name="Home" component={Profile} />
             : 
                 <SwitchStack.Screen name="Auth" component={Feed} /> 
             }
